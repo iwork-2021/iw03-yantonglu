@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		34EBE00A271F08E2005CC9EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBE009271F08E2005CC9EB /* AppDelegate.swift */; };
 		34EBE00C271F08E2005CC9EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */; };
-		34EBE00E271F08E2005CC9EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBE00D271F08E2005CC9EB /* ViewController.swift */; };
 		34EBE011271F08E2005CC9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE00F271F08E2005CC9EB /* Main.storyboard */; };
 		34EBE013271F08E3005CC9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE012271F08E3005CC9EB /* Assets.xcassets */; };
 		34EBE01E271F0910005CC9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */; };
+		9236DC1F2736349E00BE49FA /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236DC1E2736349E00BE49FA /* AboutTableViewController.swift */; };
+		9236DC212736599800BE49FA /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236DC202736599800BE49FA /* ListTableViewCell.swift */; };
+		92535575273E01DD00863B3B /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 92535574273E01DD00863B3B /* SwiftSoup */; };
+		9254D76A2740A52F002E0428 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9254D7692740A52F002E0428 /* ContentViewController.swift */; };
+		928E29A8273F699D00D9B9A7 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E29A7273F699D00D9B9A7 /* NewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34EBE006271F08E2005CC9EB /* ITSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EBE009271F08E2005CC9EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34EBE00D271F08E2005CC9EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34EBE010271F08E2005CC9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34EBE012271F08E3005CC9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EBE017271F08E3005CC9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9236DC1E2736349E00BE49FA /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		9236DC202736599800BE49FA /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		9254D7692740A52F002E0428 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		928E29A7273F699D00D9B9A7 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92535575273E01DD00863B3B /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +66,11 @@
 			children = (
 				34EBE009271F08E2005CC9EB /* AppDelegate.swift */,
 				34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */,
-				34EBE00D271F08E2005CC9EB /* ViewController.swift */,
 				34EBE00F271F08E2005CC9EB /* Main.storyboard */,
+				9254D7692740A52F002E0428 /* ContentViewController.swift */,
+				928E29A7273F699D00D9B9A7 /* NewsTableViewController.swift */,
+				9236DC1E2736349E00BE49FA /* AboutTableViewController.swift */,
+				9236DC202736599800BE49FA /* ListTableViewCell.swift */,
 				34EBE012271F08E3005CC9EB /* Assets.xcassets */,
 				34EBE017271F08E3005CC9EB /* Info.plist */,
 				34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */,
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = ITSC;
+			packageProductDependencies = (
+				92535574273E01DD00863B3B /* SwiftSoup */,
+			);
 			productName = ITSC;
 			productReference = 34EBE006271F08E2005CC9EB /* ITSC.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 34EBDFFD271F08E2005CC9EB;
+			packageReferences = (
+				92535573273E01DD00863B3B /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = 34EBE007271F08E2005CC9EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34EBE00E271F08E2005CC9EB /* ViewController.swift in Sources */,
+				9236DC212736599800BE49FA /* ListTableViewCell.swift in Sources */,
+				928E29A8273F699D00D9B9A7 /* NewsTableViewController.swift in Sources */,
 				34EBE00A271F08E2005CC9EB /* AppDelegate.swift in Sources */,
 				34EBE00C271F08E2005CC9EB /* SceneDelegate.swift in Sources */,
+				9254D76A2740A52F002E0428 /* ContentViewController.swift in Sources */,
+				9236DC1F2736349E00BE49FA /* AboutTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +370,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92535573273E01DD00863B3B /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92535574273E01DD00863B3B /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92535573273E01DD00863B3B /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34EBDFFE271F08E2005CC9EB /* Project object */;
 }
